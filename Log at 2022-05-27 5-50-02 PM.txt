@@ -42,9 +42,37 @@ Writing objects: 100% (9/9), 1.44 KiB | 1.44 MiB/s, done.
 Total 9 (delta 0), reused 0 (delta 0), pack-reused 0
 To https://github.com/vtam2012/CS5004_Lab03.git
  * [new branch]      main -> main
+    ~/De/CS5004_Lab3    main ?1  ls                ✔  05:55:21 PM  
+Lab03                            Log at 2022-05-27 5-50-02 PM.txt
+    ~/De/CS5004_Lab3    main ?1  git add .         ✔  05:55:22 PM  
+    ~/De/CS5004_Lab3    main +1  ls                ✔  05:55:26 PM  
+Lab03                            Log at 2022-05-27 5-50-02 PM.txt
+    ~/De/CS5004_Lab3    main +1  git status        ✔  05:55:26 PM  
+On branch main
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	new file:   Log at 2022-05-27 5-50-02 PM.txt
 
+    ~/De/CS5004_Lab3    main +1  git commit -m "added log text file"
+[main 14f9a67] added log text file
+ 1 file changed, 50 insertions(+)
+ create mode 100644 Log at 2022-05-27 5-50-02 PM.txt
+    ~/De/CS5004_Lab3    main  git push             ✔  05:56:02 PM  
+fatal: The current branch main has no upstream branch.
+To push the current branch and set the remote as upstream, use
 
+    git push --set-upstream origin main
 
+    ~/De/CS5004_Lab3    main  git push --set-upstream origin main
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 1.17 KiB | 1.17 MiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/vtam2012/CS5004_Lab03.git
+   c84e270..14f9a67  main -> main
+branch 'main' set up to track 'origin/main'.
 
 
 
