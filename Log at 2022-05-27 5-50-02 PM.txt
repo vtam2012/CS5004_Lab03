@@ -1,0 +1,50 @@
+    ~/De/CS5004_Lab3  cd Lab03                        ✔  05:41:40 PM  
+    ~/De/CS5004_L/Lab03  cd ..                        ✔  05:41:43 PM  
+    ~/De/CS5004_Lab3  ls                              ✔  05:41:46 PM  
+Lab03
+    ~/De/CS5004_Lab3  git init                        ✔  05:42:54 PM  
+hint: Using 'master' as the name for the initial branch. This default branch name
+hint: is subject to change. To configure the initial branch name to use in all
+hint: of your new repositories, which will suppress this warning, call:
+hint:
+hint: 	git config --global init.defaultBranch <name>
+hint:
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint:
+hint: 	git branch -m <name>
+Initialized empty Git repository in /Users/vtam/Desktop/CS5004_Lab3/.git/
+    ~/De/CS5004_Lab3    main ?1  git status      1 ✘  05:44:11 PM  
+On branch main
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	Lab03/
+
+nothing added to commit but untracked files present (use "git add" to track)
+    ~/De/CS5004_Lab3    main ?1  git add .         ✔  05:44:53 PM  
+    ~/De/CS5004_Lab3    main +5  git commit -m "initialize repo"
+[main (root-commit) c84e270] initialize repo
+ 5 files changed, 50 insertions(+)
+ create mode 100644 Lab03/.idea/.gitignore
+ create mode 100644 Lab03/.idea/misc.xml
+ create mode 100644 Lab03/.idea/modules.xml
+ create mode 100644 Lab03/Lab03.iml
+ create mode 100644 Lab03/pom.xml
+    ~/De/CS5004_Lab3    main  git push origin main
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (9/9), 1.44 KiB | 1.44 MiB/s, done.
+Total 9 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/vtam2012/CS5004_Lab03.git
+ * [new branch]      main -> main
+
+
+
+
+
+
